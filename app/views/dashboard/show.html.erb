@@ -1,8 +1,8 @@
 <div class="row-fluid">
 
 	<div class='span8'>
-<!--		<h1><%#= brand_title %> Games</h1>-->
-		<%#= link_to "New Game", new_game_path, class: "btn btn-primary" %>
+		<h1><%= brand_title %> Games</h1>
+		<%= link_to "New Game", new_game_path, class: "btn btn-primary" %>
 
 		<ul id='games-list'>
 		<% @games.each do |game| %>
